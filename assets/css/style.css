@@ -21,7 +21,8 @@ h1
     color: #efeee7; 
     background-color: #4aaaa5;
     margin-left: 24%;
-    margin-top: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
     padding-top: 28px;
     padding-bottom: 28px;
     font-family: "Georgia", "Times New Roman", Times, serif;
@@ -62,6 +63,8 @@ h1
     width: 1240px;
     height: 900px;
     margin-left: 1%;
+    border-bottom: 10px solid #4aaaa5;
+    border-top: 2px solid lightgrey;
 }
 
 #about-me-text
@@ -79,7 +82,7 @@ h1
 {
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-right: 4%;
+    margin-right: 5%;
     margin-left: 4%;
     color: #4aaaa5;
     font-size: 27px;
@@ -105,17 +108,8 @@ h1
     padding-bottom: 4%;
 }
 
-#paragraph-1
+.paragraph
 {
-    color: #777777;
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
-#paragraph-2
-{
-    clear: both;
     color: #777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     margin-left: 4%;
@@ -138,17 +132,17 @@ h1
     float: left;
     background-color: #ffffff;
     width: 47%;
-    height: 420px; 
-    margin-left: 11.2%;
+    height: 897px; 
+    margin-left: 11.5%;
 }
 
 #contact-section
 {
     float: left;
     background-color: #ffffff;
-    width: 52.5%;
+    width: 50.6%;
     height: 640px; 
-    margin-left: 11.2%;
+    margin-left: 11.5%;
 }
 
 #portfolio-section
@@ -157,24 +151,88 @@ h1
     background-color: #ffffff;
     width: 49%;
     height: 870px; 
-    margin-left: 11.2%;
+    margin-left: 11.5%;
 }
 
-.resize-1
+#github-img-about-me
 {
-    /*float: left;*/
     width: 75px;
     height: auto;
-    margin-left: 7%;
-    padding-right: 2%;
+    position: absolute;
+    left: 795px;
+    top: 217px;
 }
 
-.resize-2
+#linkedin-img-about-me
 {
-    /*float: left;*/
     width: 66px;
     height: auto;
-    padding-right: 2%;
+    position: absolute;
+    left: 875px;
+    top: 222px;
+}
+
+#stackoverflow-img-about-me
+{
+    width: 66px;
+    height: auto;
+    position: absolute;
+    left: 951px;
+    top: 222px;
+}
+
+#github-img-portfolio
+{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    left: 818px;
+    top: 217px;
+}
+
+#linkedin-img-portfolio
+{
+    width: 66px;
+    height: auto;
+    position: absolute;
+    left: 899px;
+    top: 222px;
+}
+
+#stackoverflow-img-portfolio
+{
+    width: 66px;
+    height: auto;
+    position: absolute;
+    left: 977px;
+    top: 222px;
+}
+
+#github-img-contact
+{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    left: 838px;
+    top: 217px;
+}
+
+#linkedin-img-contact
+{
+    width: 66px;
+    height: auto;
+    position: absolute;
+    left: 920px;
+    top: 222px;
+}
+
+#stackoverflow-img-contact
+{
+    width: 66px;
+    height: auto;
+    position: absolute;
+    left: 997px;
+    top: 222px;
 }
 
 #connect-with-me-section
@@ -186,15 +244,9 @@ h1
     margin-left: 3%;
 }
 
-.resize-3
-{
-    width: 15px;
-    height: auto;
-}
-
 #hangman-text
 {
-    width: 228px;
+    width: 226px;
     height: 30px;
     border: none;
     text-align: center;
@@ -204,11 +256,11 @@ h1
     color: whitesmoke;
     font-size: 24px;
     position: absolute;
-    left:151px;
-    top: 373px;
+    left: 156px;
+    top: 357px;
 }
 
-.hangman-resize
+#hangman-img
 {
     margin-left: 2%;
     width: 265px;
@@ -216,12 +268,108 @@ h1
     position: absolute;
 }
 
-.rpg-game-resize
+#rpg-game-text
+{
+    width: 227px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0.8em;
+    margin-left: 2%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 24px;
+    position: absolute;
+    left: 443px;
+    top: 358px;
+}
+
+#rpg-game-img
 {
     margin-left: 2%;
     width: 265px;
     height: auto;
     position: absolute;
+    left: 443px;
+    top: 259px;
+}
+
+#trivia-game-text
+{
+    width: 227px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0.8em;
+    margin-left: 2%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 24px;
+    position: absolute;
+    left: 152px;
+    top: 609px;
+}
+
+#trivia-game-img
+{
+    margin-left: 2%;
+    width: 265px;
+    height: auto;
+    position: absolute;
+    left: 152px;
+    top: 511px;
+}
+
+#rutgers-info-widget-text
+{
+    width: 227px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0.8em;
+    margin-left: 2%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 24px;
+    position: absolute;
+    left: 443px;
+    top: 609px;
+}
+
+#rutgers-info-widget-img
+{
+    margin-left: 2%;
+    width: 265px;
+    height: auto;
+    position: absolute;
+    left: 443px;
+    top: 511px;
+}
+
+#rock-paper-scissors-text
+{
+    width: 227px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0.8em;
+    margin-left: 2%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 24px;
+    position: absolute;
+    left: 152px;
+    top: 862px;
+}
+
+#rock-paper-scissors-img
+{
+    margin-left: 2%;
+    width: 265px;
+    height: auto;
+    position: absolute;
+    left: 152px;
+    top: 765px;
 }
 
 fieldset
@@ -239,7 +387,7 @@ label
 
 #textField
 {
-    width: 590px;
+    width: 565px;
     height: 29px;
     color: #777777;
     font-size: 15px;
@@ -247,7 +395,7 @@ label
 
 #textBoxArea
 {
-    width: 590px;
+    width: 565px;
     height: 194px;
     color: #777777;
     font-size: 15px;
@@ -266,11 +414,11 @@ label
 #footer
 {
     clear: both;
-    padding-top: 20px;
+    padding-top: 35px;
     text-align: center;
     color: whitesmoke;
     background-color: #666666;
     width: 1240px;
-    height: 80px;
+    height: 60px;
     margin-left: 1%;
 }
