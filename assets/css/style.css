@@ -57,9 +57,8 @@ h1
 .container
 {
     clear: both;
-    background-image: url("white_sand.png");
+    background-image: url("../images/white_sand.png");
     padding-top: 3%;
-    background-color: #dddddd;
     width: 1240px;
     height: 900px;
     margin-left: 1%;
