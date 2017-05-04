@@ -67,37 +67,29 @@ h1
     border-top: 2px solid lightgrey;
 }
 
-#about-me-text
+.section-header-text
 {
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-right: 4%;
     margin-left: 4%;
     color: #4aaaa5;
     font-size: 27px;
-    border-bottom: 2px solid lightgrey;    
+    border-bottom: 2px solid lightgrey; 
 }
 
-#contact-text
+.about-me-text
 {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 4%;
-    color: #4aaaa5;
-    font-size: 27px;
-    border-bottom: 2px solid lightgrey;    
+    margin-right: 4%;  
 }
 
-#portfolio-text
+.contact-text
 {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-right: 4%;
-    margin-left: 4%;
-    color: #4aaaa5;
-    font-size: 27px;
-    border-bottom: 2px solid lightgrey;    
+    margin-right: 5%;   
+}
+
+.portfolio-text
+{
+    margin-right: 4%;  
 }
 
 #about-me-image
@@ -127,110 +119,95 @@ h1
     border-bottom: 2px solid lightgrey;    
 }
 
-#about-me-section
+.section
 {
     float: left;
     background-color: #ffffff;
+    margin-left: 11.5%;
+}
+
+.about-me-section
+{
     width: 47%;
     height: 897px; 
-    margin-left: 11.5%;
 }
 
-#contact-section
+.contact-section
 {
-    float: left;
-    background-color: #ffffff;
     width: 50.6%;
-    height: 640px; 
-    margin-left: 11.5%;
+    height: 640px;
 }
 
-#portfolio-section
+.portfolio-section
 {
-    float: left;
-    background-color: #ffffff;
     width: 49%;
-    height: 870px; 
-    margin-left: 11.5%;
+    height: 870px;
 }
 
-#github-img-about-me
+.github-img
 {
     width: 75px;
     height: auto;
     position: absolute;
+}
+
+.github-img-about-me
+{
     left: 795px;
     top: 217px;
 }
 
-#linkedin-img-about-me
+.social-icon-img
 {
     width: 66px;
     height: auto;
     position: absolute;
+}
+
+.linkedin-img-about-me
+{
     left: 875px;
     top: 222px;
 }
 
-#stackoverflow-img-about-me
+.stackoverflow-img-about-me
 {
-    width: 66px;
-    height: auto;
-    position: absolute;
     left: 951px;
     top: 222px;
 }
 
-#github-img-portfolio
+.github-img-portfolio
 {
-    width: 75px;
-    height: auto;
-    position: absolute;
     left: 818px;
     top: 217px;
 }
 
-#linkedin-img-portfolio
+.linkedin-img-portfolio
 {
-    width: 66px;
-    height: auto;
-    position: absolute;
     left: 899px;
     top: 222px;
 }
 
-#stackoverflow-img-portfolio
+.stackoverflow-img-portfolio
 {
-    width: 66px;
-    height: auto;
-    position: absolute;
     left: 977px;
     top: 222px;
 }
 
-#github-img-contact
+.github-img-contact
 {
-    width: 75px;
-    height: auto;
-    position: absolute;
     left: 838px;
     top: 217px;
 }
 
-#linkedin-img-contact
+.linkedin-img-contact
 {
-    width: 66px;
-    height: auto;
-    position: absolute;
     left: 920px;
     top: 222px;
 }
 
-#stackoverflow-img-contact
+.stackoverflow-img-contact
 {
-    width: 66px;
-    height: auto;
-    position: absolute;
     left: 997px;
     top: 222px;
 }
@@ -244,9 +221,9 @@ h1
     margin-left: 3%;
 }
 
-#hangman-text
+.game-text
 {
-    width: 226px;
+    width: 227px;
     height: 30px;
     border: none;
     text-align: center;
@@ -256,118 +233,66 @@ h1
     color: whitesmoke;
     font-size: 24px;
     position: absolute;
+}
+
+.hangman-text
+{
     left: 156px;
     top: 357px;
 }
 
-#hangman-img
+.rpg-game-text
 {
-    margin-left: 2%;
-    width: 265px;
-    height: auto;
-    position: absolute;
-}
-
-#rpg-game-text
-{
-    width: 227px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    padding: 0.8em;
-    margin-left: 2%;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    font-size: 24px;
-    position: absolute;
     left: 443px;
     top: 358px;
 }
 
-#rpg-game-img
+.trivia-game-text
 {
-    margin-left: 2%;
-    width: 265px;
-    height: auto;
-    position: absolute;
-    left: 443px;
-    top: 259px;
-}
-
-#trivia-game-text
-{
-    width: 227px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    padding: 0.8em;
-    margin-left: 2%;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    font-size: 24px;
-    position: absolute;
     left: 152px;
     top: 609px;
 }
 
-#trivia-game-img
+.rutgers-info-widget-text
 {
-    margin-left: 2%;
-    width: 265px;
-    height: auto;
-    position: absolute;
-    left: 152px;
-    top: 511px;
-}
-
-#rutgers-info-widget-text
-{
-    width: 227px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    padding: 0.8em;
-    margin-left: 2%;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    font-size: 24px;
-    position: absolute;
     left: 443px;
     top: 609px;
 }
 
-#rutgers-info-widget-img
+.rock-paper-scissors-text
 {
-    margin-left: 2%;
-    width: 265px;
-    height: auto;
-    position: absolute;
-    left: 443px;
-    top: 511px;
-}
-
-#rock-paper-scissors-text
-{
-    width: 227px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    padding: 0.8em;
-    margin-left: 2%;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    font-size: 24px;
-    position: absolute;
     left: 152px;
     top: 862px;
 }
 
-#rock-paper-scissors-img
+.game-img
 {
     margin-left: 2%;
     width: 265px;
     height: auto;
     position: absolute;
+}
+
+.rpg-game-img
+{
+    left: 443px;
+    top: 259px;
+}
+
+.trivia-game-img
+{
+    left: 152px;
+    top: 511px;
+}
+
+.rutgers-info-widget-img
+{
+    left: 443px;
+    top: 511px;
+}
+
+.rock-paper-scissors-img
+{
     left: 152px;
     top: 765px;
 }
